@@ -17,9 +17,6 @@
 | Binding a proxy to a session     |    ✅     |
 | Random sleep time between clicks |    ✅     |
 
-## [How to add query id](https://github.com/Freddywhest/RockyRabbitBot/blob/main/AddQueryId.md)
-
-## [Settings](https://github.com/FreddyWhest/BlumBot/blob/main/.env-example)
 
 | Settings                      | Description                                                               |
 | ----------------------------- | ------------------------------------------------------------------------- |
@@ -35,43 +32,43 @@
 
 ## Installation
 
-You can download [**Repository**](https://github.com/FreddyWhest/BlumBot) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/Googlegithb/idk) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-~ >>> git clone https://github.com/FreddyWhest/BlumBot.git
-~ >>> cd BlumBot
+~ >>> git clone https://github.com/Googlegithb/idk.git
+~ >>> cd idk
 
 #Linux and MocOS
-~/BlumBot >>> chmod +x check_node.sh
-~/BlumBot >>> ./check_node.sh
+~/idk >>> chmod +x check_node.sh
+~/idk >>> ./check_node.sh
 
 OR
 
-~/BlumBot >>> npm install
-~/BlumBot >>> cp .env-example .env
-~/BlumBot >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/BlumBot >>> node index.js
+~/idk >>> npm install
+~/idk >>> cp .env-example .env
+~/idk >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/idk >>> node index.js
 
 #Windows
-1. Double click on INSTALL.bat in BlumBot directory to install the dependencies
-2. Double click on START.bat in BlumBot directory to start the bot
+1. Double click on INSTALL.bat in idk directory to install the dependencies
+2. Double click on START.bat in idk directory to start the bot
 
 OR
 
-~/BlumBot >>> npm install
-~/BlumBot >>> cp .env-example .env
-~/BlumBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/BlumBot >>> node index.js
+~/idk >>> npm install
+~/idk >>> cp .env-example .env
+~/idk >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/idk >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/BlumBot >>> node index.js --action=1
+~/idk >>> node index.js --action=1
 
 OR
 
-~/BlumBot >>> node index.js --action=2
+~/idk >>> node index.js --action=2
 
 #1 - Create session
 #2 - Run clicker
