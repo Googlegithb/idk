@@ -5,9 +5,9 @@ const banner = `
 ║╔═╗║║║ ║║║║║╚╝║║╔═╗║║╔╗║ ║║ 
 ║╚═╝║║╚╗║╚╝║║║║║║╚═╝║║╚╝║ ║╚╗
 ╚═══╝╚═╝╚══╝╚╩╩╝╚═══╝╚══╝ ╚═╝
-© Freddy Bots
+© Idk Bots
 
-Starting bot.......
+bot DImulai .......
 `;
 
 module.exports = banner;
