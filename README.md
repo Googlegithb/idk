@@ -38,6 +38,8 @@ You can download [**Repository**](https://github.com/Googlegithb/idk) by cloning
 ~ >>> git clone https://github.com/Googlegithb/idk.git
 ~ >>> cd idk
 
+remove node_modules
+remove session_user_agents.json
 #Linux and MocOS
 ~/idk >>> chmod +x check_node.sh
 ~/idk >>> ./check_node.sh
@@ -47,6 +49,7 @@ OR
 ~/idk >>> npm install
 ~/idk >>> cp .env-example .env
 ~/idk >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/idk >>> edit queryIds.json
 ~/idk >>> node index.js
 
 #Windows
